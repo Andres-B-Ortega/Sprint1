@@ -1,0 +1,73 @@
+/* // normalizar:  */
+/* hace que todos los elemetos respeten los tamaños asignados por mi y queden con 0 margin o padding */
+*{
+    margin: 1rem;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+head{
+    background-color: rgb(128, 1, 1);
+}
+header{
+    background-color: rgb(128, 1, 1);
+}
+main{
+    background-color: rgb(128, 1, 1);
+}
+
+.color{   
+    color: white;
+}
+nav{
+    background-color: orange;
+}
+nav a{
+    color:brown;
+}
+p{
+    color:rgb(215, 183, 245);
+}
+.aumentar{
+    font-size: 30px; 
+background-color: rgb(255, 0, 0);
+} 
+.size{
+    font-size: 70px;
+
+}
+
+#logo{
+    height: 10vh;
+    width: 30%;
+    background-image: url(./style.css);
+    background-size: cover;
+}
+        
+#banner{
+    height: 50vh;
+    width: 100%;
+    background-image: url(".");
+    background-position: 30% 70%;
+    background-size: cover;
+
+}
+aside{
+    background-color:rgb(128, 1, 1);
+}
+footer{
+    background-color: rgb(128, 1, 1);
+}
+#ancor1{
+    display: inline-block;
+}
+#ancor2{
+    display: inline-block;
+}
+nav{
+    display: inline;
+}
+h1{
+    display: block;
+    
+}
